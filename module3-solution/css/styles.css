@@ -13,7 +13,8 @@ body {
   border: 0;
 }
 .my-header {
-  position: fixed;
+  position: relative;
+  /*position: fized;*/
   width: 100%;
   height: 150px;
   z-index: 2;
@@ -79,7 +80,8 @@ body {
   height: 1000px;
 }
 #content-heading {
-  margin: 70px 0 10px;
+  /*margin: 70px 0 10px;*/
+  margin: -50px 0 10px;
   font-size: 1.8em;
 }
 #content-title {
